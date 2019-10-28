@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.email       = 'noah.w.gilmore@gmail.com'
   s.files       = %w(README.md) + Dir['lib/**/*.rb']
   s.homepage    = 'https://github.com/noahsark769/xcodeproj-sort-pre-commit-hook'
-  s.required_ruby_version = '>= 2.0.0'
+  s.required_ruby_version = '>= 2.5.0'
   s.executables   = %w(xcodeproj-sort)
   s.add_runtime_dependency 'xcodeproj', '~> 1.6.0'
   s.add_runtime_dependency 'claide', '~> 1.0'
